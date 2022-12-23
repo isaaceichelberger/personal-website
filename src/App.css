@@ -1,38 +1,153 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .App {
   text-align: center;
+  height: 100vh;
+  width: 100vw;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.introContainer {
+  height: calc(100vh - 3rem); /* full height minus navigation */
+  width: 100vw;
+  background-color: #2D2D40;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: calc(100vh - 3rem); /* full height minus navigation */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* box containing phrase */
+.introPhrase {
+  width: 30vw;
+  height: 60vh;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+}
+
+/* the phrase */
+.phraseContainer {
+  font-size: 6vw;
+  font-weight: 100;
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+  height: fit-content;
+  color: #C6C6FE;
+}
+
+.hovered {
+  color: #E3E3FF;
+  font-weight: 500;
+  transition: all;
+  transition-duration: 300ms;
+}
+
+.adjacentHovered {
+  color: #DBDBFE;
+  font-weight: 300;
+  transition: all;
+  transition-duration: 300ms;
+}
+
+/* to add space */
+.spaceClass {
+  min-width: 2vw;
+}
+
+.photoBox {
+  width: 50vw;
+  height: fit-content;
+  margin-bottom: .5rem;
   align-items: center;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.photoBox > img {
+  width: 55%;
+  height: 80%;
+  border-radius: 50%;
+} 
+
+.photosAndIcons {
+  justify-content: flex-start;
+  display: flex;
+  align-items: flex-start;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* set hovered state of the social icon */
+.social-icon:hover > div > svg g.social-svg-icon {
+  fill: #E3E3FF !important;
+}
+
+.heading {
+  color: #C6C6FE;
+  font-weight: 100; 
+  font-size: 5.5vw;
+  display: flex;
+  margin-left: 6vw;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* education css */
+.educationLanding {
+  background-color: #1C1C28;
+  width: 100vw;
+  height: 100vh;
+}
+
+.educationText {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  color: #C6C6FE;
+  text-align: left;
+  font-weight: 150;
+  font-size: 3vw;
+  height: calc(100vh - 5.5vw); /* remove header height */
+  justify-content: center;
+  margin-top: -1rem; /* move up a bit because the header is bigger than it says it is */
+}
+
+.circle {
+  border-radius: 50%;
+  min-width: 50%;
+  max-width: 55%;
+}
+
+
+.educationImageLabel {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 5.5vw); /* remove header height */
+  justify-content: center;
+  align-items: center;
+  margin-top: -1rem; /* move up a bit because the header is bigger than it says it is */
+  width: 50vw;
+}
+
+.educationCaption {  
+  color: #C6C6FE;
+  font-weight: 150;
+  font-size: 3vw;
+  margin-top: 1vh;
+}
+
+
+/* css for experience */
+.experienceLanding {
+  height: calc(100vh);
+  width: 100vw;
+  background-color: #2D2D40;
+
 }
