@@ -22,7 +22,7 @@ const Experience = () => {
             alt="IBM"
             aria="ibm"
             description="I currently work as a solutions developer for IBM, with the IBM Cloud Solutions Engineering Team. I demonstrate cloud technologies to clients and build tools for them."
-            label="Solution Developer"
+            label="Solutions Developer"
             active
           ></ExperienceTile>
           <ExperienceTile
