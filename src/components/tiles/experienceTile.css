@@ -15,7 +15,7 @@
     width: 30vw;
     margin-top: 2rem;
     box-shadow: 18px 2px 20px -5px black;
-    margin-left: 0.75rem;
+    margin-left: 0.5rem;
 }
 
 .container.inactive {
@@ -47,7 +47,7 @@
     min-width: 5rem;
     display: flex;
     align-items: center;
-    height: 5rem;
+    height: 5.2rem;
 }
 
 .description {
@@ -62,7 +62,7 @@
 
 .description.mobile {
     min-width: 5rem;
-    height: 5rem;
+    height: 5.2rem;
     text-align: left;
     border: 0.5rem solid transparent; /* do not allow overflow padding */
 }
