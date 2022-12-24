@@ -92,6 +92,11 @@ html {
   font-size: 5.5vw;
   display: flex;
   margin-left: 6vw;
+  padding-top: 1rem;
+}
+
+.heading.mobile {
+  font-size: 35px;
 }
 
 .columns {
@@ -106,6 +111,20 @@ html {
   height: 100vh;
 }
 
+.educationContainer {
+  display: flex;
+  justify-content: space-around;
+  height: calc(100vh - 5.5vw);
+  align-items: center;
+}
+
+.educationContainer.mobile {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 35px);
+}
+
 .educationText {
   display: flex;
   flex-direction: column;
@@ -113,10 +132,17 @@ html {
   color: #C6C6FE;
   text-align: left;
   font-weight: 150;
-  font-size: 3vw;
-  height: calc(100vh - 5.5vw); /* remove header height */
+  font-size: 35px;
+  height: max-content;
   justify-content: center;
   margin-top: -1rem; /* move up a bit because the header is bigger than it says it is */
+  text-align: justify;
+}
+
+.educationText.mobile {
+  margin-top: 2rem;
+  font-size: 20px;
+  width: 80vw;
 }
 
 .circle {
@@ -125,22 +151,31 @@ html {
   max-width: 55%;
 }
 
+.circle.mobile{
+  min-width: 100%;
+}
 
 .educationImageLabel {
   display: flex;
   flex-direction: column;
-  height: calc(100vh - 5.5vw); /* remove header height */
   justify-content: center;
   align-items: center;
   margin-top: -1rem; /* move up a bit because the header is bigger than it says it is */
   width: 50vw;
+  height: max-content;
 }
+
 
 .educationCaption {  
   color: #C6C6FE;
   font-weight: 150;
-  font-size: 3vw;
+  font-size: 35px;
   margin-top: 1vh;
+}
+
+.educationCaption.mobile {
+  font-size: 20px;
+  width: 100vw;
 }
 
 
