@@ -8,6 +8,12 @@ html {
   width: 100vw;
 }
 
+.displayFlex {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
 .introContainer {
   height: calc(100vh - 3rem); /* full height minus navigation */
   width: 100vw;
@@ -140,8 +146,8 @@ html {
 }
 
 .educationText.mobile {
-  margin-top: 2rem;
-  font-size: 20px;
+  margin-top: 1rem;
+  font-size: 18px;
   width: 80vw;
 }
 
@@ -152,7 +158,7 @@ html {
 }
 
 .circle.mobile{
-  min-width: 100%;
+  max-width: 60%;
 }
 
 .educationImageLabel {
@@ -162,9 +168,7 @@ html {
   align-items: center;
   margin-top: -1rem; /* move up a bit because the header is bigger than it says it is */
   width: 50vw;
-  height: max-content;
 }
-
 
 .educationCaption {  
   color: #C6C6FE;
@@ -196,7 +200,6 @@ html {
 .experienceContainer.mobile {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   height: calc(100vh - 35px - 2rem); /* remove header */
 }
 

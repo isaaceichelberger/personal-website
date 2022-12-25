@@ -12,16 +12,18 @@
     display: flex;
     box-shadow: none;
     border: none;
-    width: 30vw;
-    margin-top: 2rem;
+    width: 14rem;
+    height: fit-content;
+    margin-top: 1rem;
     box-shadow: 18px 2px 20px -5px black;
-    margin-left: 0.5rem;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .container.inactive {
     filter: blur(2px);
-    z-index: 1;
-    opacity: 0.5;
+    z-index: 0;
+    opacity: 0;
 }
 
 .tile {
@@ -32,15 +34,17 @@
 
 .tile.mobile {
     border-bottom: none;
+    width: 7rem;
 }
 
 .label {
     font-weight: 200;
     color: #383843;
     background-color: #FFFFFF;
-    padding: 1rem;
+    padding: 1rem 1rem 0rem 1rem;
     overflow: scroll;
     height: 2rem;
+    overflow-x: hidden;
 }
 
 .label.mobile {
@@ -48,6 +52,7 @@
     display: flex;
     align-items: center;
     height: 5.5rem;
+    padding: 1rem;
 }
 
 .description {
@@ -59,10 +64,22 @@
     height: 4rem;
 }
 
-
 .description.mobile {
-    min-width: 5rem;
-    height: 5.5rem;
+    max-width: 11rem;
+    height: 5.5rem; /* this needs to change */
     text-align: left;
     border: 0.5rem solid transparent; /* do not allow overflow padding */
+    border-bottom: 2px solid #AAAAAE;
+    margin-top: 1rem;
+}
+
+.clickToShow {
+    color: #AAAAAE;
+    font-weight: 200;
+    background-color: #FFFFFF;
+}
+
+.clickToShow.mobile {
+    width: 14rem;
+    height: 1.5rem;
 }

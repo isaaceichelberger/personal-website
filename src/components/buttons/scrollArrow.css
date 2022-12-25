@@ -1,0 +1,36 @@
+.scrollTopContainer {
+    position: fixed;
+    width: 100%;
+    bottom: 20px;
+    right: 20px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1000;
+    animation: fadeIn 0.3s;
+    transition: opacity 0.4s;
+    opacity: 0.3;
+    color: #AAAAAE;
+}
+
+.scrollTop {
+    width: 25px;
+    margin-left: .5rem;
+    fill: #AAAAAE;
+
+  }
+
+  .scrollTop:hover{
+    opacity: 1;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0.5;
+    }
+  }
