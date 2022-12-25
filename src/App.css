@@ -158,7 +158,13 @@ html {
 }
 
 .circle.mobile{
-  max-width: 60%;
+  max-width: 80%;
+}
+
+@media screen and (orientation: landscape) {
+  .circle.mobile {
+    max-width: 55%;
+  }
 }
 
 .educationImageLabel {
@@ -203,4 +209,10 @@ html {
   height: calc(100vh - 35px - 2rem); /* remove header */
 }
 
+@media screen and (orientation: landscape) {
+  .experienceContainer.mobile {
+    display: flex;
+    flex-direction: flex-end;
+  }
+}
 
