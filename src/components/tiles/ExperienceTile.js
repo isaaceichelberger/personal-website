@@ -24,7 +24,7 @@ class ExperienceTile extends React.Component {
       <MediaQuery maxWidth="768px">
         {(matches) =>
           matches ? (
-            <div>
+            <div onClick={this.toggleShow}>
               {this.state.show ? (
                 <ResponsiveDiv className={"description"}>
                   {this.props.description}
@@ -46,19 +46,11 @@ class ExperienceTile extends React.Component {
                   </ResponsiveDiv>
                 </ResponsiveDiv>
               )}
-              <div
-                className="clickToShow mobile"
-                onClick={() =>
-                  this.setState({
-                    show: !this.state.show,
-                    active: !this.state.active,
-                  })
-                }
-              >
+              <ResponsiveDiv className="clickToShow">
                 {this.state.show
                   ? "Click to show position"
                   : "Click to show description"}
-              </div>
+              </ResponsiveDiv>
             </div>
           ) : (
             <>
