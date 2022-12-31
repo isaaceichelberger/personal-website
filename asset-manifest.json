@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/isaaceichelberger.com/personal-website/static/css/main.f92d7e18.css",
-    "main.js": "/isaaceichelberger.com/personal-website/static/js/main.b756c0f3.js",
-    "static/js/787.5809834d.chunk.js": "/isaaceichelberger.com/personal-website/static/js/787.5809834d.chunk.js",
-    "static/media/isaac.jpg": "/isaaceichelberger.com/personal-website/static/media/isaac.25a4b3f8d446d816eb79.jpg",
-    "static/media/cfa.jpeg": "/isaaceichelberger.com/personal-website/static/media/cfa.763408f7b29bd42ca101.jpeg",
-    "index.html": "/isaaceichelberger.com/personal-website/index.html",
-    "main.f92d7e18.css.map": "/isaaceichelberger.com/personal-website/static/css/main.f92d7e18.css.map",
-    "main.b756c0f3.js.map": "/isaaceichelberger.com/personal-website/static/js/main.b756c0f3.js.map",
-    "787.5809834d.chunk.js.map": "/isaaceichelberger.com/personal-website/static/js/787.5809834d.chunk.js.map"
+    "main.css": "/isaaceichelberger.com/static/css/main.f92d7e18.css",
+    "main.js": "/isaaceichelberger.com/static/js/main.e906f563.js",
+    "static/js/787.5809834d.chunk.js": "/isaaceichelberger.com/static/js/787.5809834d.chunk.js",
+    "static/media/isaac.jpg": "/isaaceichelberger.com/static/media/isaac.25a4b3f8d446d816eb79.jpg",
+    "static/media/cfa.jpeg": "/isaaceichelberger.com/static/media/cfa.763408f7b29bd42ca101.jpeg",
+    "index.html": "/isaaceichelberger.com/index.html",
+    "main.f92d7e18.css.map": "/isaaceichelberger.com/static/css/main.f92d7e18.css.map",
+    "main.e906f563.js.map": "/isaaceichelberger.com/static/js/main.e906f563.js.map",
+    "787.5809834d.chunk.js.map": "/isaaceichelberger.com/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f92d7e18.css",
-    "static/js/main.b756c0f3.js"
+    "static/js/main.e906f563.js"
   ]
 }
